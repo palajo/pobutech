@@ -1,0 +1,36 @@
+@import './global.scss';
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/menu.scss';
+@import './components/mobile-menu.scss';
+@import './components/catalog-modal.scss';
+@import './components/icons.scss';
+
+@import './components/mainpage/slider.scss';
+@import './components/mainpage/popular-categories.scss';
+@import './components/mainpage/recommended-categories.scss';
+
+@import './components/product/breadcrumbs.scss';
+@import './components/product/product.scss';
+@import './components/product/double-section.scss';
+@import './components/product/specs.scss';
+@import './components/product/recommended-products.scss';
+
+@import './components/cart/cart.scss';
+@import './components/cart/cart-table.scss';
+@import './components/cart/cart-totals.scss';
+@import './components/cart/checkout.scss';
+@import './components/cart/checkout-form.scss';
+@import './components/cart/checkout-sumup.scss';
+@import './components/cart/thanks.scss';
+
+@import './components/catalog/double-section.scss';
+@import './components/catalog/sidebar.scss';
+@import './components/catalog/catalog.scss';
+@import './components/catalog/pagination.scss';
+
+@import './components/pages/section.scss';
+@import './components/pages/delivery.scss';
+@import './components/pages/contacts.scss';
+@import './components/pages/warranty.scss';
+@import './components/pages/business.scss';

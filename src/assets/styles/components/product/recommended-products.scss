@@ -1,0 +1,172 @@
+section.recommended-products {
+    position: relative;
+
+    width: 30%;
+    border-left: 1px solid #e7e7e7;
+
+    &::before {
+        position: absolute;
+        content: '';
+
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+
+        background: #fff;
+    }
+
+    .container-title {
+        padding: 30px 40px;
+        border-bottom: 1px solid #e7e7e7;
+        margin-bottom: 0;
+    }
+
+    .product-block {
+        width: 100%;
+
+        padding: 20px 40px;
+
+        background: #fff;
+        border-bottom: 1px solid #e7e7e7;
+        
+        &:hover {
+            background: #f8f8f8;
+        }
+
+        .product-block-row{
+            display: flex;
+            flex-wrap: wrap;
+            .left-part {
+                display: flex;
+                width: 30%;
+                align-items: center;
+
+                .product-image {
+                    width: 100%;
+                    height: 70px;
+        
+                    img {
+                        width: 100%;
+                        height: 100%;
+        
+                        object-fit: contain;
+                        object-position: center;
+                    }
+                }        
+            }
+            .right-part {
+                width: 70%;
+                padding-left: 20px;
+
+                .product-title-code {
+                    height: 57px;
+                    margin-bottom: 20px;
+                }
+                .product-title {
+                    width: 100%;
+                    
+                    margin-bottom: 5px;    
+        
+                    a {
+                        font-size: 14px;
+                        line-height: 18px;
+        
+                        font-weight: 600;
+                        color: #1f1f1f;
+        
+                        &:hover {
+                            color: #C22532;
+                        }
+                    }
+                }
+        
+                .product-code {
+                    width: 100%;
+        
+                    font-size: 12px;
+                    line-height: 12px;
+        
+                    font-weight: 400;
+                    color: #999;
+                }
+        
+                .product-row {
+                    display: flex;
+                    justify-content: space-between;
+                }
+        
+                .product-price {
+                    font-size: 24px;
+                    line-height: 24px;
+        
+                    font-weight: 600;
+                    color: #1f1f1f;
+        
+                    span {
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                .product-add-to-cart {
+                    width: 24px;
+                    height: 24px;
+        
+                    mask: url("../../../images/icons/cart-not-filled.svg") 50% 50% no-repeat;
+                    mask-size: contain;
+                    mask-position: center;
+        
+                    background: #C22532;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    section.recommended-products {
+        width: 100%;
+
+        border-top: 40px solid #f0f0f0;
+        border-left: 0;
+
+        .product-block {
+            padding: 30px 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    section.recommended-products {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        border-top: 40px solid #f0f0f0;
+        border-left: 0;
+
+        .recommended-products-block {
+            display: flex;
+            flex-wrap: wrap;
+
+            .product-block {
+                width: 50%;
+                padding: 30px 20px;
+
+                border-right: 1px solid #e7e7e7;
+
+                &:nth-child(2n) {
+                    border-right: 0;
+                }
+            }
+    
+        }
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    section.recommended-products {
+        width: 380px;
+    }
+}

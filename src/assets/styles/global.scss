@@ -1,0 +1,254 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Uni Neue', sans-serif;
+    
+    font-size: 14px;
+    line-height: 20px;
+
+    font-weight: 400;
+    color: #666;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    background: #f0f0f0;
+}
+
+/* ------- bootstrap corrections */
+.container {
+    max-width: 1440px;
+}
+
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus,
+select {
+    outline: none;
+}
+
+/* ------------------------ */
+
+
+
+
+/* ------- h1, h2, h3, h4, h5, p, b */
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    margin: 0px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 72px;
+
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56px;
+
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 36px;
+
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 30px;
+
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #666;
+}
+
+b {
+    font-weight: 700;
+    color: inherit;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* ------------------------ */
+
+
+.button{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+	font-weight: 800;
+
+	height: 50px;
+	width: 220px;
+
+	color: white;
+
+    background: linear-gradient(to right, #b41e2a 50%, #C22532 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+
+	outline: none;
+	border: none;
+
+    transition: all 0.3s ease;
+
+    &::before{
+        position: absolute;
+        content: '';
+        
+        top: 0;
+        left: 0;
+
+        height: 50px;
+        width: 35px;
+
+        background: #fff;
+        transform-origin: left top;
+        transform: skew(-35deg);
+    }
+
+    &::after{
+        position: absolute;
+        content: '';
+        
+        top: 0;
+        right: 0;
+
+        height: 50px;
+        width: 35px;
+
+        background: #fff;
+        transform-origin: left bottom;
+        transform: skew(-35deg);
+    }
+
+    &:hover {
+        background-position: left bottom;
+    }
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.container-title {
+    width: 100%;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+    line-height: 36px;
+
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+#wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .container-title {
+        width: 100%;
+        margin-bottom: 20px;
+    
+        font-size: 24px;
+        line-height: 30px;
+    
+        font-weight: 600;
+        color: #1f1f1f;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .container-title {
+        width: 100%;
+        margin-bottom: 20px;
+    
+        font-size: 24px;
+        line-height: 30px;
+    
+        font-weight: 600;
+        color: #1f1f1f;
+    }
+}
+
+.modal-appear {
+    animation: modal-appear 0.3s ease
+}
+
+@keyframes modal-appear {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+}

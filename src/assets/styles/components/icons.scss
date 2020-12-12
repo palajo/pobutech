@@ -1,0 +1,66 @@
+.icon-block{
+    position: relative;
+    cursor: pointer;
+
+    .icon {
+        display: flex;
+        position: relative;
+    
+        justify-content: center;
+        align-items: center;
+    
+        width: 60px;
+        height: 50px;
+    
+        mask: url("../../images/icons/icon-bg.svg");
+        mask-size: contain;
+        mask-position: center;
+    
+        background: rgba(255, 255, 255, 0.15);
+    
+        img {
+            height: 20px;
+            width: 20px;
+    
+            object-fit: contain;
+            object-position: center;
+        }
+
+    }
+    label {
+        position: absolute;
+        width: 100%;
+
+        bottom: -20px;
+        margin: 0;
+
+        padding-top: 8px;
+
+        font-size: 12px;
+        line-height: 12px;
+
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.35);
+
+        text-align: center;
+
+    }
+
+
+    &:hover {
+        .icon {
+            background: rgba(255, 255, 255, 0.25);
+        }
+        label {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}
+.icon-block.active{
+    .icon {
+        background: #7892B7;
+    }
+    label {
+        color: #7892B7;
+    }
+}
