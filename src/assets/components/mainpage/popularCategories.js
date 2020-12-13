@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 
-import CategoryImage from '../../images/category.png';
+import VacuumCleaner from '../../images/thumbnails/category/vacuum-cleaner.png';
+import Dishwasher from '../../images/thumbnails/category/dishwasher.png';
+import Freezer from '../../images/thumbnails/category/freezer.png';
+import Fridge from '../../images/thumbnails/category/fridge.png';
+import Multicooker from '../../images/thumbnails/category/multicooker.png';
+import WashingMachine from '../../images/thumbnails/category/washing-machine.png';
+
 
 export default class PopularCategories extends Component {
     render() {
@@ -8,17 +14,17 @@ export default class PopularCategories extends Component {
             <div className="container popular-categories">
                 <div className="row">
                     <div className="container-title">
-                        Popular categories:
+                        Популярні категорії:
                     </div>
                     <div className="blocks-row">
                         <div className="block">
-                            <a href="#">
+                            <a href="/catalog">
                                 <div className="image-block">
-                                    <img src={CategoryImage} alt="category-image" />
+                                    <img src={VacuumCleaner} alt="category-image" />
                                 </div>
                                 <div className="content-block">
                                     <div className="category-title">
-                                        Dishwasher
+                                        Пилососи
                                     </div>
                                     <div className="category-description">
                                         Drawer or Glides, Element or Burner,
@@ -28,13 +34,13 @@ export default class PopularCategories extends Component {
                             </a>
                         </div>
                         <div className="block">
-                            <a href="#">
+                            <a href="/catalog">
                                 <div className="image-block">
-                                    <img src={CategoryImage} alt="category-image" />
+                                    <img src={Multicooker} alt="category-image" />
                                 </div>
                                 <div className="content-block">
                                     <div className="category-title">
-                                        Dishwasher
+                                        Мультиварки
                                     </div>
                                     <div className="category-description">
                                         Drawer or Glides, Element or Burner,
@@ -44,13 +50,13 @@ export default class PopularCategories extends Component {
                             </a>
                         </div>
                         <div className="block">
-                            <a href="#">
+                            <a href="/catalog">
                                 <div className="image-block">
-                                    <img src={CategoryImage} alt="category-image" />
+                                    <img src={Freezer} alt="category-image" />
                                 </div>
                                 <div className="content-block">
                                     <div className="category-title">
-                                        Dishwasher
+                                        Морозильні камери
                                     </div>
                                     <div className="category-description">
                                         Drawer or Glides, Element or Burner,
@@ -60,13 +66,13 @@ export default class PopularCategories extends Component {
                             </a>
                         </div>
                         <div className="block">
-                            <a href="#">
+                            <a href="/catalog">
                                 <div className="image-block">
-                                    <img src={CategoryImage} alt="category-image" />
+                                    <img src={WashingMachine} alt="category-image" />
                                 </div>
                                 <div className="content-block">
                                     <div className="category-title">
-                                        Dishwasher
+                                        Пральні машини
                                     </div>
                                     <div className="category-description">
                                         Drawer or Glides, Element or Burner,
@@ -76,13 +82,13 @@ export default class PopularCategories extends Component {
                             </a>
                         </div>
                         <div className="block">
-                            <a href="#">
+                            <a href="/catalog">
                                 <div className="image-block">
-                                    <img src={CategoryImage} alt="category-image" />
+                                    <img src={Dishwasher} alt="category-image" />
                                 </div>
                                 <div className="content-block">
                                     <div className="category-title">
-                                        Dishwasher
+                                        Посудомийні машини
                                     </div>
                                     <div className="category-description">
                                         Drawer or Glides, Element or Burner,
@@ -92,13 +98,13 @@ export default class PopularCategories extends Component {
                             </a>
                         </div>
                         <div className="block">
-                            <a href="#">
+                            <a href="/catalog">
                                 <div className="image-block">
-                                    <img src={CategoryImage} alt="category-image" />
+                                    <img src={Fridge} alt="category-image" />
                                 </div>
                                 <div className="content-block">
                                     <div className="category-title">
-                                        Dishwasher
+                                        Холодильники
                                     </div>
                                     <div className="category-description">
                                         Drawer or Glides, Element or Burner,

@@ -10,7 +10,7 @@ export default class BusinessPage extends Component {
                         <PagesSidebar />
                         <section className="content">
                             <div className="container-title">
-                                For business:
+                                Для бізнесу:
                             </div>
                             <div className="content-content">
                                 <div className="content-block">

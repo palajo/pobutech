@@ -114,14 +114,12 @@ a {
 }
 
 /* ------------------------ */
-
-
 .button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
 
-	font-weight: 800;
+	font-weight: 700;
 
 	height: 50px;
 	width: 220px;
@@ -238,7 +236,9 @@ button:focus {
 .modal-appear {
     animation: modal-appear 0.3s ease
 }
-
+input[type="number"] {
+    -webkit-appearance: none;
+}
 @keyframes modal-appear {
     0% {
         visibility: hidden;

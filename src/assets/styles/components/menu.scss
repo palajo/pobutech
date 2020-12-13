@@ -25,6 +25,7 @@
     }
 
     ul.main-ul {
+        padding-bottom: 100px;
         position: relative;
 
         width: 100%;
@@ -66,15 +67,18 @@
             }
 
             a.main-link {
+                display: flex;
+
                 width: 350px;
 
                 margin: 0;
-                padding: 18px 30px;
+                padding: 15px 30px;
 
                 background: #2F405C;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
                 font-size: 14px;
+                line-height: 20px;
                 font-weight: 600;
 
                 color: #fff;
@@ -83,18 +87,21 @@
                     background: #7892B7;
                 }
 
-                img {
-                    height: 14px;
+                .main-ul-icon {
+                    height: 20px;
                     width: 14px;
 
-                    object-fit: contain;
-                    object-position: center;
+                    background: rgba(255, 255, 255, 0.25);
+
+                    mask-size: contain !important;
+                    mask-position: left !important;
+                    mask-repeat: no-repeat !important; 
 
                     margin-right: 10px;
                 }
             }
 
-            div {
+            .sub-ul-container {
                 display: none;
                 position: absolute;
 
@@ -160,6 +167,10 @@
 
             a.main-link {
                 background: #7892B7;
+
+                .main-ul-icon {
+                    background: #fff;
+                }
             }
 
             div {

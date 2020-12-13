@@ -18,7 +18,7 @@ export default class CatalogModal extends Component {
                     <div class="modal-content">
                         <div className="modal-header">
                             <div className="modal-title">
-                                Catalog
+                                Каталог
                             </div>
                             <div className="modal-close" data-dismiss="modal">
                                 <div className="close"></div>
@@ -28,8 +28,8 @@ export default class CatalogModal extends Component {
                             <ul className="mobile-category-menu">
                                 <li className="mobile-category-menu-item">
                                     <a href="#" className="mobile-category-menu-link">
-                                        <div className="mobile-icon phone"></div>
-                                        Link #1
+                                        <div className="mobile-icon icon fridge"></div>
+                                        Холодильники
                                     </a>
                                     <ul className="mobile-category-submenu">
                                         <li className="mobile-category-menu-item">
@@ -108,26 +108,50 @@ export default class CatalogModal extends Component {
                                 </li>
                                 <li className="mobile-category-menu-item">
                                     <a href="#" className="mobile-category-menu-link">
-                                        <div className="mobile-icon phone"></div>
-                                        Link #2
+                                        <div className="mobile-icon icon washing-machine"></div>
+                                        Пральні машини
                                     </a>
                                 </li>
                                 <li className="mobile-category-menu-item">
                                     <a href="#" className="mobile-category-menu-link">
-                                        <div className="mobile-icon phone"></div>
-                                        Link #3
+                                        <div className="mobile-icon icon air-conditioning"></div>
+                                        Кондиціонери
                                     </a>
                                 </li>
                                 <li className="mobile-category-menu-item">
                                     <a href="#" className="mobile-category-menu-link">
-                                        <div className="mobile-icon phone"></div>
-                                        Link #4
+                                        <div className="mobile-icon icon vacuum-cleaner"></div>
+                                        Пилососи
                                     </a>
                                 </li>
                                 <li className="mobile-category-menu-item">
                                     <a href="#" className="mobile-category-menu-link">
-                                        <div className="mobile-icon phone"></div>
-                                        Link #5
+                                        <div className="mobile-icon icon multicooker"></div>
+                                        Мультиварки
+                                    </a>
+                                </li>
+                                <li className="mobile-category-menu-item">
+                                    <a href="#" className="mobile-category-menu-link">
+                                        <div className="mobile-icon icon freezer"></div>
+                                        Морозильні камери
+                                    </a>
+                                </li>
+                                <li className="mobile-category-menu-item">
+                                    <a href="#" className="mobile-category-menu-link">
+                                        <div className="mobile-icon icon waterheater"></div>
+                                        Бойлери
+                                    </a>
+                                </li>
+                                <li className="mobile-category-menu-item">
+                                    <a href="#" className="mobile-category-menu-link">
+                                        <div className="mobile-icon icon dishwasher"></div>
+                                        Посудомийні машини
+                                    </a>
+                                </li>
+                                <li className="mobile-category-menu-item">
+                                    <a href="#" className="mobile-category-menu-link">
+                                        <div className="mobile-icon icon meat-grinder"></div>
+                                        М'ясорубки
                                     </a>
                                 </li>
                             </ul>

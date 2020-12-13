@@ -13,7 +13,7 @@ export default class CartModal extends Component {
                     <div class="modal-content">
                         <div className="modal-header">
                             <div className="modal-title">
-                                Cart
+                                Кошик
                             </div>
                             <div className="modal-close" data-dismiss="modal">
                                 <div className="close"></div>
@@ -36,7 +36,7 @@ export default class CartModal extends Component {
                                                 </a>
                                             </div>
                                             <div className="cart-product-code">
-                                                Product code: #12352
+                                                Артикул: #12352
                                             </div>
                                         </td>
                                         <td className="cart-product-quantity">
@@ -51,7 +51,7 @@ export default class CartModal extends Component {
                                             </div>
                                         </td>
                                         <td className="cart-product-price">
-                                            95 <span>uah</span>
+                                            95 <span>грн.</span>
                                         </td>
                                         <td className="cart-product-actions">
                                             <div className="cart-product-remove-from-cart"></div>
@@ -71,7 +71,7 @@ export default class CartModal extends Component {
                                                 </a>
                                             </div>
                                             <div className="cart-product-code">
-                                                Product code: #12352
+                                                Артикул: #12352
                                             </div>
                                         </td>
                                         <td className="cart-product-quantity">
@@ -86,7 +86,7 @@ export default class CartModal extends Component {
                                             </div>
                                         </td>
                                         <td className="cart-product-price">
-                                            95 <span>uah</span>
+                                            95 <span>грн.</span>
                                         </td>
                                         <td className="cart-product-actions">
                                             <div className="cart-product-remove-from-cart"></div>
@@ -106,7 +106,7 @@ export default class CartModal extends Component {
                                                 </a>
                                             </div>
                                             <div className="cart-product-code">
-                                                Product code: #12352
+                                                Артикул: #12352
                                             </div>
                                         </td>
                                         <td className="cart-product-quantity">
@@ -121,7 +121,7 @@ export default class CartModal extends Component {
                                             </div>
                                         </td>
                                         <td className="cart-product-price">
-                                            95 <span>uah</span>
+                                            95 <span>грн.</span>
                                         </td>
                                         <td className="cart-product-actions">
                                             <div className="cart-product-remove-from-cart"></div>
@@ -139,11 +139,11 @@ export default class CartModal extends Component {
                                 </div>
                                 <div className="cart-total-button">
                                     <div className="total-price">
-                                        <label>Total cost:</label>
-                                        190 <span>uah</span>
+                                        <label>Загальна вартість:</label>
+                                        190 <span>грн.</span>
                                     </div>
                                     <a href="/checkout">
-                                        <button className="button">Proceed to checkout</button>
+                                        <button className="button">Оформити замовлення</button>
                                     </a>
                                 </div>
                             </div>

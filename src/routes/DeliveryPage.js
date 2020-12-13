@@ -11,7 +11,7 @@ export default class DeliveryPage extends Component {
                         <PagesSidebar />
                         <section className="content">
                             <div className="container-title">
-                                Delivery & Payment: 
+                                Доставка та оплата: 
                             </div>
                             <div className="content-content">
                                 <div className="content-block">

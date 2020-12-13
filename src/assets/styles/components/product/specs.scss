@@ -92,6 +92,24 @@ section.specs {
 @media screen and (max-width: 767px) {
     section.specs {
         width: 100%;
+
+        .specifications {
+            padding: 30px;    
+            .specifications-block {
+                margin-bottom: 50px;
+    
+                .specifications-row {                    
+    
+                    .specifications-title {    
+                        width: 100%;
+                    }
+    
+                    .specifications-value {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {

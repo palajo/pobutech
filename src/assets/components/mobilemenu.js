@@ -19,44 +19,44 @@ export default class MobileMenu extends Component {
                         <ul className="mobile-ul">
                             <li className="mobile-item">
                                 <a className="mobile-link" href="/">
-                                    <div className="mobile-icon phone"></div>
-                                    Mainpage
+                                    <div className="mobile-icon icon home"></div>
+                                    Головна
                                 </a>
                             </li>
                             <li className="mobile-item">
                                 <a className="mobile-link" href="#" data-target="#catalog" data-toggle="modal">
-                                    <div className="mobile-icon phone"></div>
-                                    Catalog
+                                    <div className="mobile-icon icon catalog"></div>
+                                    Каталог
                                 </a>
                             </li>
                             <li className="mobile-item">
                                 <a className="mobile-link" href="/delivery">
-                                    <div className="mobile-icon phone"></div>
-                                    Delivery & Payment
+                                    <div className="mobile-icon icon delivery"></div>
+                                    Доставка та оплата
                                 </a>
                             </li>
                             <li className="mobile-item">
                                 <a className="mobile-link" href="/warranty">
-                                    <div className="mobile-icon phone"></div>
-                                    Warranty
+                                    <div className="mobile-icon icon warranty"></div>
+                                    Гарантія
                                 </a>
                             </li>
                             <li className="mobile-item">
-                                <a className="mobile-link" href="#">
-                                    <div className="mobile-icon phone"></div>
-                                    Return policy
+                                <a className="mobile-link" href="/return">
+                                    <div className="mobile-icon icon return"></div>
+                                    Повернення товару
                                 </a>
                             </li>
                             <li className="mobile-item">
                                 <a className="mobile-link" href="/business">
-                                    <div className="mobile-icon phone"></div>
-                                    For business
+                                    <div className="mobile-icon icon business"></div>
+                                    Для бізнесу
                                 </a>
                             </li>
                             <li className="mobile-item">
                                 <a className="mobile-link" href="/contacts">
                                     <div className="mobile-icon phone"></div>
-                                    Contacts
+                                    Контакти
                                 </a>
                             </li>
                         </ul>

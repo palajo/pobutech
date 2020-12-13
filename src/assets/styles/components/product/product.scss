@@ -177,12 +177,12 @@ section.product {
             width: 100%;
 
             display: flex;
-            flex-wrap: wrap;
 
             align-self: flex-end;
             align-items: center;
 
             .product-price {
+                width: 120px;
                 margin-right: 30px;
 
                 font-size: 30px;
@@ -198,9 +198,9 @@ section.product {
             }
 
             .product-add-to-cart {
-                button {
-                    max-width: 220px;
-                }
+                display: flex;
+                width: calc(100% - 120px);
+
 
                 input.quantity {
                     margin-left: 30px;
@@ -319,6 +319,7 @@ section.product {
             }
 
             .product-price-cart {
+                display: block;
                 width: 100%;
 
                 .product-price {

@@ -21,12 +21,12 @@ export function Block() {
                     </a>
                 </div>
                 <div className="product-code">
-                    Product code: #12352
+                    Артикул: #12352
                 </div>
             </div>
             <div className="product-row">
                 <div className="product-price">
-                    95 <span>uah</span>
+                    95 <span>грн.</span>
                 </div>
                 <a href="#">
                     <div className="product-add-to-cart"></div>
@@ -49,17 +49,17 @@ export default class CatalogPage extends Component {
                     <div className="row">
                         <Breadcrumbs />
                         <button className="filters-button">
-                            FILTERS
+                            ФІЛЬТРИ
                         </button>
                         <section className="sidebar-catalog">
                             <div className="category-header">
                                 <div className="category-title">
-                                    <div className="category-icon freezer"></div>
-                                    Freezers
+                                    <div className="category-icon icon fridge"></div>
+                                    Холодильники
                                 </div>
                                 <div className="category-sort">
                                     <div className="dropdown sort">
-                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Relevance</button>
+                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Релевантність</button>
                                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                             <li>
                                                 <a href="#">
@@ -82,12 +82,12 @@ export default class CatalogPage extends Component {
                             </div>
                             <section className="sidebar">
                                 <div className="sidebar-block">
-                                    <div className="sidebar-block-label">Filter title:</div>
+                                    <div className="sidebar-block-label">Бренд:</div>
                                     <ul>
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Uno
+                                                    Samsung
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -96,7 +96,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Duo
+                                                    LG
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -105,7 +105,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Tres
+                                                    Electrolux
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -114,7 +114,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Quattro
+                                                    Sony
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -123,12 +123,12 @@ export default class CatalogPage extends Component {
                                     </ul>
                                 </div>
                                 <div className="sidebar-block">
-                                    <div className="sidebar-block-label">Filter title:</div>
+                                    <div className="sidebar-block-label">Бренд:</div>
                                     <ul>
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Uno
+                                                    Samsung
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -137,7 +137,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Duo
+                                                    LG
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -146,7 +146,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Tres
+                                                    Electrolux
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -155,7 +155,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Quattro
+                                                    Sony
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -164,12 +164,12 @@ export default class CatalogPage extends Component {
                                     </ul>
                                 </div>
                                 <div className="sidebar-block">
-                                    <div className="sidebar-block-label">Filter title:</div>
+                                    <div className="sidebar-block-label">Бренд:</div>
                                     <ul>
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Uno
+                                                    Samsung
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -178,7 +178,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Duo
+                                                    LG
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -187,7 +187,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Tres
+                                                    Electrolux
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
@@ -196,7 +196,7 @@ export default class CatalogPage extends Component {
                                         <li>
                                             <a href="#">
                                                 <label>
-                                                    Filter Quattro
+                                                    Sony
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>

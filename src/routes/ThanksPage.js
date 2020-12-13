@@ -12,41 +12,41 @@ export default class ThanksPage extends Component {
                 <div className="row">
                     <section className="thanks">
                         <div className="container-title">
-                            Thank you!<br />
-                            Your order has been received.
+                            Дякуємо!<br />
+                            Ваше замовлення надіслано до обробки.
                         </div>
                         <div className="content">
                             <div className="order-details">
                                 <table>
                                     <tbody>
                                         <tr className="product">
-                                            <th>Product</th>
-                                            <th>Price</th>
+                                            <th>Товар</th>
+                                            <th>Ціна</th>
                                         </tr>
                                         <tr>
                                             <td>Wellco Airfilter SES/W220 Additional <span>x2</span></td>
-                                            <td>195 uah</td>
+                                            <td>195 грн.</td>
                                         </tr>
                                         <tr>
                                             <td>Wellco Airfilter SES/W220 Additional <span>x2</span></td>
-                                            <td>195 uah</td>
+                                            <td>195 грн.</td>
                                         </tr>
                                         <br />
                                         <tr>
-                                            <th>Subotal:</th>
-                                            <td>390 uah</td>
+                                            <th>Загальна вартість:</th>
+                                            <td>390 грн.</td>
                                         </tr>
                                         <tr>
-                                            <th>Shipping:</th>
-                                            <td>50 uah</td>
+                                            <th>Доставка:</th>
+                                            <td>50 грн.</td>
                                         </tr>
                                         <tr>
-                                            <th>Payment method:</th>
-                                            <td>Cash on delivery</td>
+                                            <th>Спосіб оплати:</th>
+                                            <td>При отриманні (готівка)</td>
                                         </tr>
                                         <tr className="total">
-                                            <th>Total:</th>
-                                            <td>440 uah</td>
+                                            <th>До сплати:</th>
+                                            <td>440 грн.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -54,7 +54,7 @@ export default class ThanksPage extends Component {
                             <div className="actions">
                                 <a href="/">
                                     <button className="button">
-                                        Back to mainpage
+                                        До магазину
                                     </button>
                                 </a>
                             </div>

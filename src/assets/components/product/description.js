@@ -9,7 +9,7 @@ export default class ProductDescription extends Component {
                         Wellco Airfilter SES/W220
                     </div>
                     <div className="product-code">
-                        Article: 0052345
+                        Артикул: 0052345
                     </div>
                 </div>
                 <div className="product-description">
@@ -22,10 +22,10 @@ export default class ProductDescription extends Component {
                 </div>
                 <div className="product-price-cart">
                     <div className="product-price">
-                        345 <span>uah</span>
+                        345 <span>грн.</span>
                     </div>
                     <div className="product-add-to-cart">
-                        <button className="button">Add to cart</button>
+                        <button className="button">В кошик</button>
                         <input type="number" className="quantity" placeholder="1" min="1" step="1" /> 
                     </div>
                 </div>

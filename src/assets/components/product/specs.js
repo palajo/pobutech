@@ -5,23 +5,23 @@ function ProductSpecsBlock() {
         <div className="specifications-block">
             <div className="specifications-row">
                 <div className="specifications-title">
-                    <span>Spec title</span>
+                    <span>Особливості</span>
                 </div>
                 <div className="specifications-value">
                     <ul>
                         <li>
                             <a href="#">
-                                Specifications Uno
+                                Корисна потужність: 18 кВт
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Specifications Uno
+                                ККД: >89%
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Specifications Uno
+                                Захист: IPX4D
                             </a>
                         </li>
                     </ul>
@@ -36,7 +36,7 @@ export default class ProductSpecs extends Component {
         return (
             <section className="specs">
                 <div className="container-title">
-                    Specifications
+                    Характеристики
                 </div>
                 <div className="specifications">
                     <ProductSpecsBlock />

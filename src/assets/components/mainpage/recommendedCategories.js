@@ -18,12 +18,12 @@ export function Block() {
                     </a>
                 </div>
                 <div className="product-code">
-                    Product code: #12352
+                    Акртикул: #12352
                 </div>
             </div>
             <div className="product-row">
                 <div className="product-price">
-                    95 <span>uah</span>
+                    95 <span>грн.</span>
                 </div>
                 <a href="#">
                     <div className="product-add-to-cart"></div>
@@ -38,10 +38,10 @@ export function Container() {
         <div className="recommended-container">
             <div className="recommended-title-row">
                 <div className="category-title">
-                    <div className="category-icon freezer"></div>
-                    Freezers
+                    <div className="category-icon icon freezer"></div>
+                    Морозильні камери
                 </div>
-                <a href="/catalog" className="show-more">Show more</a>
+                <a href="/catalog" className="show-more">Показати більше</a>
             </div>
             <div className="recommended-products">
                 <Block />
@@ -61,7 +61,7 @@ export default class RecommendedCategories extends Component {
             <div className="container recommended-categories">
                 <div className="row">
                     <div className="container-title">
-                        Recommended categories:
+                        Рекомендовані категорії:
                     </div>
                     <Container />
                     <Container />

@@ -10,7 +10,7 @@ export default class WarrantyPage extends Component {
                         <PagesSidebar />
                         <section className="content">
                             <div className="container-title">
-                                Warranty:
+                                Гарантія:
                             </div>
                             <div className="content-content">
                                 <div className="content-block">

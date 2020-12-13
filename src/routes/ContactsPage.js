@@ -12,7 +12,7 @@ export default class ContactsPage extends Component {
                         <PagesSidebar />
                         <section className="content">
                             <div className="container-title">
-                                Contacts:
+                                Контакти:
                             </div>
                             <div className="content-content">
                                 <div className="content-block">
@@ -32,7 +32,7 @@ export default class ContactsPage extends Component {
                                             </div>
                                         </div>
                                         <div className="text">
-                                            <label>Phone number:</label>
+                                            <label>Телефон:</label>
                                             +38 (000) 00 00 000
                                         </div>  
                                     </div>
@@ -43,7 +43,7 @@ export default class ContactsPage extends Component {
                                             </div>
                                         </div>
                                         <div className="text">
-                                            <label>Phone number:</label>
+                                            <label>Телефон:</label>
                                             +38 (000) 00 00 000
                                         </div>  
                                     </div>
@@ -54,7 +54,7 @@ export default class ContactsPage extends Component {
                                             </div>
                                         </div>
                                         <div className="text">
-                                            <label>Phone number:</label>
+                                            <label>Телефон:</label>
                                             +38 (000) 00 00 000
                                         </div>  
                                     </div>
@@ -65,7 +65,7 @@ export default class ContactsPage extends Component {
                                             </div>
                                         </div>
                                         <div className="text">
-                                            <label>Phone number:</label>
+                                            <label>Телефон:</label>
                                             +38 (000) 00 00 000
                                         </div>  
                                     </div>
@@ -76,7 +76,7 @@ export default class ContactsPage extends Component {
                                             </div>
                                         </div>
                                         <div className="text">
-                                            <label>Phone number:</label>
+                                            <label>Телефон:</label>
                                             +38 (000) 00 00 000
                                         </div>  
                                     </div>
@@ -87,7 +87,7 @@ export default class ContactsPage extends Component {
                                             </div>
                                         </div>
                                         <div className="text">
-                                            <label>Phone number:</label>
+                                            <label>Телефон:</label>
                                             +38 (000) 00 00 000
                                         </div>  
                                     </div>

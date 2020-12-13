@@ -7,22 +7,22 @@ export default class Breadcrumbs extends Component {
                 <ul>
                     <li>
                         <a href="#">
-                            Mainpage
+                            Головна
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            Category
+                            Категорія
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            Subcategory
+                            Підкатегорія
                         </a>
                     </li>
                     <li>
                         <a href="#" className="active">
-                            Product title
+                            Сторінка товару
                         </a>
                     </li>
                 </ul>

@@ -22,12 +22,12 @@ export function ProductRecommendedBlock() {
                             </a>
                         </div>
                         <div className="product-code">
-                            Product code: #12352
+                            Артикул: #12352
                         </div>
                     </div>
                     <div className="product-row">
                         <div className="product-price">
-                            95 <span>uah</span>
+                            95 <span>грн.</span>
                         </div>
                         <a href="#">
                             <div className="product-add-to-cart"></div>
@@ -44,7 +44,7 @@ export default class ProductRecommended extends Component {
         return (
             <section className="recommended-products">
                 <div className="container-title">
-                    Recommended products
+                    Рекомендовані товари
                 </div>
                 <div className="recommended-products-block">
                     <ProductRecommendedBlock />

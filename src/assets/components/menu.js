@@ -21,10 +21,10 @@ export default class Menu extends Component {
                         <ul className="main-ul">
                             <li className="main-item active">
                                 <a className="main-link" href="/catalog">
-                                    <img src={MenuIcon} alt="menu-icon" />
-                                    Brake system
+                                    <div className="main-ul-icon icon fridge"></div>
+                                    Холодильники
                                 </a>
-                                <div>
+                                <div className="sub-ul-container">
                                     <ul className="sub-ul">
                                         <li>
                                             <a href="/catalog">
@@ -73,10 +73,10 @@ export default class Menu extends Component {
                             </li>
                             <li className="main-item">
                                 <a className="main-link" href="/catalog">
-                                    <img src={MenuIcon} alt="menu-icon" />
-                                    Engine
+                                    <div className="main-ul-icon icon washing-machine"></div>
+                                    Пральні машини
                                 </a>
-                                <div>
+                                <div className="sub-ul-container">
                                     <ul className="sub-ul">
                                         <li>
                                             <a href="/catalog">
@@ -125,10 +125,10 @@ export default class Menu extends Component {
                             </li>
                             <li className="main-item">
                                 <a className="main-link" href="/catalog">
-                                    <img src={MenuIcon} alt="menu-icon" />
-                                    Filters
+                                    <div className="main-ul-icon icon air-conditioning"></div>
+                                    Кондиціонери
                                 </a>
-                                <div>
+                                <div className="sub-ul-container">
                                     <ul className="sub-ul">
                                         <li>
                                             <a href="/catalog">
@@ -177,14 +177,38 @@ export default class Menu extends Component {
                             </li>
                             <li className="main-item">
                                 <a className="main-link" href="/catalog">
-                                    <img src={MenuIcon} alt="menu-icon" />
-                                    Suspension
+                                    <div className="main-ul-icon icon vacuum-cleaner"></div>
+                                    Пилососи
                                 </a>
                             </li>
                             <li className="main-item">
                                 <a className="main-link" href="/catalog">
-                                    <img src={MenuIcon} alt="menu-icon" />
-                                    Belt / Chain Drive
+                                    <div className="main-ul-icon icon multicooker"></div>
+                                    Мультиварки
+                                </a>
+                            </li>
+                            <li className="main-item">
+                                <a className="main-link" href="/catalog">
+                                    <div className="main-ul-icon icon freezer"></div>
+                                    Морозильні камери
+                                </a>
+                            </li>
+                            <li className="main-item">
+                                <a className="main-link" href="/catalog">
+                                    <div className="main-ul-icon icon waterheater"></div>
+                                    Бойлери
+                                </a>
+                            </li>
+                            <li className="main-item">
+                                <a className="main-link" href="/catalog">
+                                    <div className="main-ul-icon icon dishwasher"></div>
+                                    Посудомийні машини
+                                </a>
+                            </li>
+                            <li className="main-item">
+                                <a className="main-link" href="/catalog">
+                                    <div className="main-ul-icon icon meat-grinder"></div>
+                                    М'ясорубки
                                 </a>
                             </li>
                         </ul>

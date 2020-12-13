@@ -18,6 +18,7 @@ import WarrantyPage from './routes/WarrantyPage';
 import BusinessPage from './routes/BusinessPage';
 import CheckoutPage from './routes/CheckoutPage';
 import ThanksPage from './routes/ThanksPage';
+import ReturnPage from './routes/ReturnPage';
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                                 <Route component={ContactsPage} path="/contacts" />
                                 <Route component={WarrantyPage} path="/warranty" />
                                 <Route component={BusinessPage} path="/business" />
+                                <Route component={ReturnPage} path="/return" />
 
                                 <Route component={CheckoutPage} path="/checkout" />
                                 <Route component={ThanksPage} path="/thanks" />

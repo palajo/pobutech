@@ -17,96 +17,96 @@ export default class Footer extends Component {
                         </div>
                         <div className="block">
                             <div className="block-title">
-                                For Clients
+                                Корисні посилання
                             </div>
                             <ul className="footer-nav">
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Delivery & Payment
+                                        Доставка та оплата
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Warranty
+                                        Гарантія
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Service center
+                                        Повернення товару
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        About us
+                                        Для бізнесу
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Contact us
+                                        Контакти
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div className="block">
                             <div className="block-title">
-                                For Clients
+                                Рекомендовані категорії
                             </div>
                             <ul className="footer-nav">
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Delivery & Payment
+                                        Холодильники
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Warranty
+                                        Мультиварки
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Service center
+                                        Посудомийні машини
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        About us
+                                        Пральні машини
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Contact us
+                                        Бойлери
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div className="block">
                             <div className="block-title">
-                                For Clients
+                                Контакти
                             </div>
-                            <ul className="footer-nav">
+                            <ul className="footer-nav informative">
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Delivery & Payment
+                                        <div className="footer-icon icon phone"></div>
+                                        +38 (000) 00 00 000
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Warranty
+                                        <div className="footer-icon icon phone"></div>
+                                        +38 (000) 00 00 000
+                                    </a>
+                                </li>
+                                <div className="space"></div>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <div className="footer-icon icon clock"></div>
+                                        з 9-00 до 18-00
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#" className="nav-link">
-                                        Service center
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#" className="nav-link">
-                                        About us
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#" className="nav-link">
-                                        Contact us
+                                        <div className="footer-icon icon location"></div>
+                                        м. Львів, вул. Шевченка 8а
                                     </a>
                                 </li>
                             </ul>
@@ -114,7 +114,7 @@ export default class Footer extends Component {
                     </div>
                     <div className="row creator">
                         <div className="developer">
-                            Дизайн и разработка — Palaj
+                            Дизайн та розробка — Webunite.net
                         </div>
                         <div className="copyright">
                             © 2020 «Побутех Львів»

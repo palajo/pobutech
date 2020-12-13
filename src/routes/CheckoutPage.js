@@ -17,32 +17,32 @@ export default class CheckoutPage extends Component {
                     <form className="checkout" action="/thanks">
                         <section className="checkout-form">
                             <div className="container-title">
-                                Checkout:
+                                Оформлення замовлення:
                             </div>
                             <div className="checkout-form-block">
                                 <div className="checkout-form-block-title">
                                     <div className="step-number">
                                         <img src={Profile} alt="icon-profile" />
                                     </div>
-                                    Personal information
+                                    Персональні дані
                                 </div>
                                 <div className="custom-form-row">
                                     <div className="custom-form-block">
-                                        <label>First name:</label>
-                                        <input type="text" className="custom-input" placeholder="Alexander.." />
+                                        <label>Ваше ім'я:</label>
+                                        <input type="text" className="custom-input" placeholder="Петро.." />
                                     </div>
                                     <div className="custom-form-block">
-                                        <label>Last name:</label>
-                                        <input type="text" className="custom-input" placeholder="Alexander.." />
+                                        <label>Ваше призвіще:</label>
+                                        <input type="text" className="custom-input" placeholder="Моставчук.." />
                                     </div>
                                 </div>
                                 <div className="custom-form-row">
                                     <div className="custom-form-block">
-                                        <label>E-mail address:</label>
+                                        <label>E-mail:</label>
                                         <input type="text" className="custom-input" placeholder="admin@pobutech.com.ua.." />
                                     </div>
                                     <div className="custom-form-block">
-                                        <label>Phone number:</label>
+                                        <label>Телефон:</label>
                                         <input type="text" className="custom-input" placeholder="+38 (000) 00 00 000.." />
                                     </div>
                                 </div>
@@ -52,11 +52,11 @@ export default class CheckoutPage extends Component {
                                     <div className="step-number">
                                         <img src={Delivery} alt="icon-profile" />
                                     </div>
-                                    Delivery information
+                                    Доставка
                                 </div>
                                 <div className="custom-form-row">
                                     <div className="custom-form-block">
-                                        <label>Delivery service:</label>
+                                        <label>Спосіб доставки:</label>
                                         <select className="custom-input custom-select">
                                             <option value="" disabled selected>Choose delivery service..</option>
                                             <option value="novaposhta">Nova Poshta</option>
@@ -65,18 +65,18 @@ export default class CheckoutPage extends Component {
                                         </select>
                                     </div>
                                     <div className="custom-form-block">
-                                        <label>Delivery city:</label>
-                                        <input type="text" className="custom-input" placeholder="Lviv.." />
+                                        <label>Місто:</label>
+                                        <input type="text" className="custom-input" placeholder="Львів.." />
                                     </div>
                                 </div>
                                 <div className="custom-form-row">
                                     <div className="custom-form-block">
-                                        <label>Delivery address:</label>
-                                        <input type="text" className="custom-input" placeholder="Il. Sventsitskogo 64 st..." />
+                                        <label>Адреса:</label>
+                                        <input type="text" className="custom-input" placeholder="вул. Іл. Свенціцького 64..." />
                                     </div>
                                     <div className="custom-form-block">
-                                        <label>Post office:</label>
-                                        <input type="text" className="custom-input" placeholder="Post office #64" />
+                                        <label>Номер відділення:</label>
+                                        <input type="text" className="custom-input" placeholder="№64" />
                                     </div>
                                 </div>
                             </div>
@@ -85,22 +85,22 @@ export default class CheckoutPage extends Component {
                                     <div className="step-number">
                                         <img src={Payment} alt="icon-profile" />
                                     </div>
-                                    Payment information
+                                    Оплата
                                 </div>
                                 <div className="custom-form-row">
                                     <div className="custom-form-block">
-                                        <label>Payment type:</label>
+                                        <label>Спосіб оплати:</label>
                                         <div className="custom-radio-block">
                                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
-                                            <label for="exampleRadios1">Bank transfer (Privatbank)</label>
+                                            <label for="exampleRadios1">Переказ на каркту (Privatbank)</label>
                                         </div>
                                         <div className="custom-radio-block">
                                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
-                                            <label for="exampleRadios1">Pay on receive</label>
+                                            <label for="exampleRadios1">Оплата при отриманні</label>
                                         </div>
                                         <div className="custom-radio-block">
                                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
-                                            <label for="exampleRadios1">Pay in store</label>
+                                            <label for="exampleRadios1">Оплата в магазині</label>
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@ export default class CheckoutPage extends Component {
                         <section className="checkout-sumup">
                             <div className="checkout-cart">
                                 <div className="container-title">
-                                    In cart:
+                                    В кошику:
                                 </div>
                                 <div className="cart-table">
                                     <table>
@@ -128,7 +128,7 @@ export default class CheckoutPage extends Component {
                                                         </a>
                                                     </div>
                                                     <div className="cart-product-code">
-                                                        Product code: #12352
+                                                        Артикул: #12352
                                                     </div>
                                                 </td>
                                                 <td className="cart-product-quantity">
@@ -143,7 +143,7 @@ export default class CheckoutPage extends Component {
                                                     </div>
                                                 </td>
                                                 <td className="cart-product-price">
-                                                    95 <span>uah</span>
+                                                    95 <span>грн.</span>
                                                 </td>
                                                 <td className="cart-product-actions">
                                                     <div className="cart-product-remove-from-cart"></div>
@@ -163,7 +163,7 @@ export default class CheckoutPage extends Component {
                                                         </a>
                                                     </div>
                                                     <div className="cart-product-code">
-                                                        Product code: #12352
+                                                        Артикул: #12352
                                                     </div>
                                                 </td>
                                                 <td className="cart-product-quantity">
@@ -178,7 +178,7 @@ export default class CheckoutPage extends Component {
                                                     </div>
                                                 </td>
                                                 <td className="cart-product-price">
-                                                    95 <span>uah</span>
+                                                    95 <span>грн.</span>
                                                 </td>
                                                 <td className="cart-product-actions">
                                                     <div className="cart-product-remove-from-cart"></div>
@@ -192,12 +192,12 @@ export default class CheckoutPage extends Component {
                             <div className="checkout-confirm">
                                 <div className="cart-total-button">
                                     <div className="total-price">
-                                        <label>Total cost:</label>
+                                        <label>До сплати:</label>
                                         <div>
-                                            190 <span>uah</span>
+                                            190 <span>грн.</span>
                                         </div>
                                     </div>
-                                    <button className="button" type="submit">Confirm order</button>
+                                    <button className="button" type="submit">Замовити</button>
                                 </div>
                             </div>
                         </section>

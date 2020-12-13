@@ -3,7 +3,9 @@ import React, { Component } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
-import SliderImage from '../../images/slider.jpg';
+import SliderImage from '../../images/slider2.jpg';
+import SliderImageTwo from '../../images/slider.jpg';
+
 import arrowRight from '../../images/icons/arrow-right-red.svg';
 import arrowLeft from '../../images/icons/arrow-left-red.svg';
 
@@ -57,13 +59,14 @@ export default class MainpageSlider extends Component {
                             <div className="content-block">
                                 <div>
                                     <h2>
-                                        You may find in our online-shop!
+                                        Супер-пропозиція на запасні
+                                        частини до холодильників!
                                     </h2>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,  eiusmod tempor incididunt ut labore et dolore magna.
                                     </p>
                                     <button className="button">
-                                        Show now!
+                                        До категорії
                                     </button>
                                 </div>
                             </div>
@@ -73,20 +76,21 @@ export default class MainpageSlider extends Component {
 						</div>
                         <div className="mainpage-slider-slide">
                             <div className="content-block">
-                                <div>
+                            <div>
                                     <h2>
-                                        You may find in our online-shop1!
+                                        Лише сьогодні знижка на всі <br />
+                                        позиції до 15%!
                                     </h2>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,  eiusmod tempor incididunt ut labore et dolore magna.
                                     </p>
                                     <button className="button">
-                                        Show now!
+                                        В магазин
                                     </button>
                                 </div>
                             </div>
                             <div className="image-block">
-                                <img src={SliderImage} alt="slider-image" />
+                                <img src={SliderImageTwo} alt="slider-image" />
                             </div>
 						</div>
                     </Slider>
