@@ -29,7 +29,6 @@
             }
 
             .cart-product-image {
-                width: 20%;
                 
                 a {
                     img {
@@ -43,12 +42,11 @@
             }
 
             .cart-product-title-code {
-                width: 35%;
                 height: 70px;
                 .cart-product-title {
                     a {
-                        font-size: 16px;
-                        line-height: 24px;
+                        font-size: 14px;
+                        line-height: 20px;
         
                         font-weight: 600;
                         color: #1f1f1f;
@@ -72,7 +70,6 @@
             }
 
             .cart-product-quantity {
-                width: 20%;
 
                 .input-row {
                     display: flex;
@@ -116,9 +113,8 @@
             }
 
             .cart-product-price {
-                width: 20%;
-                font-size: 30px;
-                line-height: 30px;
+                font-size: 24px;
+                line-height: 24px;
 
                 font-weight: 600;
                 color: #1f1f1f;
@@ -127,11 +123,37 @@
                     font-size: 14px;
                     font-weight: 400;
                 }
+
+                .quantity-in-cart {
+                    margin-right: 10px;
+                    font-size: 14px;
+                    font-weight: 600;
+
+                    color: #C22532;
+                }
+            }
+
+            .cart-product-subtotal {
+                font-size: 24px;
+                line-height: 24px;
+
+                font-weight: 600;
+                color: #1f1f1f;
+
+                span {
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                .quantity-in-cart {
+                    font-size: 14px;
+                    font-weight: 600;
+
+                    color: #C22532;
+                }
             }
 
             .cart-product-actions {
-                width: 5%;
-
                .cart-product-remove-from-cart {
                    cursor: pointer;
 

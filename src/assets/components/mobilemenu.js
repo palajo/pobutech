@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { NavLink } from 'react-router-dom'
+
 import Logo from '../images/logo1.svg';
 import CatalogModal from './catalogmodal';
 
@@ -18,46 +20,46 @@ export default class MobileMenu extends Component {
                         </div>
                         <ul className="mobile-ul">
                             <li className="mobile-item">
-                                <a className="mobile-link" href="/">
+                                <NavLink className="mobile-link" to="/">
                                     <div className="mobile-icon icon home"></div>
                                     Головна
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="mobile-item">
-                                <a className="mobile-link" href="#" data-target="#catalog" data-toggle="modal">
+                                <NavLink className="mobile-link" to="#" data-target="#catalog" data-toggle="modal">
                                     <div className="mobile-icon icon catalog"></div>
                                     Каталог
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="mobile-item">
-                                <a className="mobile-link" href="/delivery">
+                                <NavLink className="mobile-link" to="/delivery">
                                     <div className="mobile-icon icon delivery"></div>
                                     Доставка та оплата
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="mobile-item">
-                                <a className="mobile-link" href="/warranty">
+                                <NavLink className="mobile-link" to="/warranty">
                                     <div className="mobile-icon icon warranty"></div>
                                     Гарантія
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="mobile-item">
-                                <a className="mobile-link" href="/return">
+                                <NavLink className="mobile-link" to="/return">
                                     <div className="mobile-icon icon return"></div>
                                     Повернення товару
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="mobile-item">
-                                <a className="mobile-link" href="/business">
+                                <NavLink className="mobile-link" to="/business">
                                     <div className="mobile-icon icon business"></div>
                                     Для бізнесу
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="mobile-item">
-                                <a className="mobile-link" href="/contacts">
+                                <NavLink className="mobile-link" to="/contacts">
                                     <div className="mobile-icon phone"></div>
                                     Контакти
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

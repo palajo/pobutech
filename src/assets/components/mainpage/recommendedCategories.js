@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import ProductImage from '../../images/product.png';
 
@@ -6,16 +7,16 @@ export function Block() {
     return(
         <div className="product-block">
             <div className="product-image">
-                <a href="/product">
+                <NavLink to="/product">
                     <img src={ProductImage} alt="product-image" />
-                </a>
+                </NavLink>
             </div>
             <div className="product-title-code">
                 <div className="product-title">
-                    <a href="/product">
+                    <NavLink to="/product">
                         Wellco Airfilter SES/W220
                         Additional
-                    </a>
+                    </NavLink>
                 </div>
                 <div className="product-code">
                     Акртикул: #12352
@@ -25,9 +26,9 @@ export function Block() {
                 <div className="product-price">
                     95 <span>грн.</span>
                 </div>
-                <a href="#">
+                <NavLink to="#">
                     <div className="product-add-to-cart"></div>
-                </a>
+                </NavLink>
             </div>
         </div>
     )
@@ -41,7 +42,7 @@ export function Container() {
                     <div className="category-icon icon freezer"></div>
                     Морозильні камери
                 </div>
-                <a href="/catalog" className="show-more">Показати більше</a>
+                <NavLink to="/catalog" className="show-more">Показати більше</NavLink>
             </div>
             <div className="recommended-products">
                 <Block />

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
+
 import Breadcrumbs from '../assets/components/breadcrumbs'
 import ProductImage from '../assets/images/product-big.png';
 
@@ -9,16 +11,16 @@ export function Block() {
     return(
         <div className="product-block">
             <div className="product-image">
-                <a href="/product">
+                <NavLink to="/product">
                     <img src={ProductImage} alt="product-image" />
-                </a>
+                </NavLink>
             </div>
             <div className="product-title-code">
                 <div className="product-title">
-                    <a href="/product">
+                    <NavLink to="/product">
                         Wellco Airfilter SES/W220
                         Additional
-                    </a>
+                    </NavLink>
                 </div>
                 <div className="product-code">
                     Артикул: #12352
@@ -28,9 +30,9 @@ export function Block() {
                 <div className="product-price">
                     95 <span>грн.</span>
                 </div>
-                <a href="#">
+                <NavLink to="#">
                     <div className="product-add-to-cart"></div>
-                </a>
+                </NavLink>
             </div>
         </div>
     )
@@ -62,19 +64,19 @@ export default class CatalogPage extends Component {
                                         <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Релевантність</button>
                                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                             <li>
-                                                <a href="#">
+                                                <NavLink to="#">
                                                     First option
-                                                </a>
+                                                </NavLink>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <NavLink to="#">
                                                     Second option
-                                                </a>
+                                                </NavLink>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <NavLink to="#">
                                                     Third option
-                                                </a>
+                                                </NavLink>
                                             </li>
                                         </div>
                                     </div>
@@ -85,40 +87,40 @@ export default class CatalogPage extends Component {
                                     <div className="sidebar-block-label">Бренд:</div>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Samsung
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     LG
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Electrolux
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Sony
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
@@ -126,40 +128,40 @@ export default class CatalogPage extends Component {
                                     <div className="sidebar-block-label">Бренд:</div>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Samsung
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     LG
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Electrolux
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Sony
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
@@ -167,40 +169,40 @@ export default class CatalogPage extends Component {
                                     <div className="sidebar-block-label">Бренд:</div>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Samsung
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     LG
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Electrolux
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <label>
                                                     Sony
                                                     <input type="checkbox" className="custom-checkbox" />
                                                     <span class="checkmark"></span> 
                                                 </label>
-                                            </a>
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
@@ -225,29 +227,29 @@ export default class CatalogPage extends Component {
                         <section className="pagination">
                             <ul>
                                 <li>
-                                    <a href="#" className="active">
+                                    <NavLink to="#" className="active" exact>
                                         1
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <NavLink to="/" exact>
                                         2
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <NavLink to="/" exact>
                                         3
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <NavLink to="/" exact>
                                         4
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <NavLink to="/" exact>
                                         5
-                                    </a>
+                                    </NavLink>
                                 </li>
                             </ul>
                         </section>

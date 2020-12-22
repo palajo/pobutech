@@ -20,10 +20,13 @@ import CheckoutPage from './routes/CheckoutPage';
 import ThanksPage from './routes/ThanksPage';
 import ReturnPage from './routes/ReturnPage';
 
+import ScrollToTop from './ScrollToTop';
+
 function App() {
     return (
         <>
-                <BrowserRouter>
+            <BrowserRouter>
+                <ScrollToTop>
                     <Header />
                         <div id="wrapper">
                             <Switch>
@@ -42,7 +45,8 @@ function App() {
                             </Switch>
                         </div>
                     <Footer />
-                </BrowserRouter>
+                </ScrollToTop>
+            </BrowserRouter>
         </>
     );
 }

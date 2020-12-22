@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { NavLink } from 'react-router-dom';
+
 import MenuIcon from '../images/icons/menu.svg';
 import CartIcon from '../images/icons/cart.svg';
 import SearchIcon from '../images/icons/search.svg';
@@ -41,22 +43,22 @@ export default class Header extends Component {
                             <div className="row">
                                 <ul>
                                     <li>
-                                        <a href="/delivery">Доставка та оплата</a>
+                                        <NavLink to="/delivery">Доставка та оплата</NavLink>
                                     </li>
                                     <li>
-                                        <a href="/warranty">Гарантія</a>
+                                        <NavLink to="/warranty">Гарантія</NavLink>
                                     </li>
                                     <li>
-                                        <a href="/return">Повернення товару</a>
+                                        <NavLink to="/return">Повернення товару</NavLink>
                                     </li>
                                     <li>
-                                        <a href="/business">Для бізнесу</a>
+                                        <NavLink to="/business">Для бізнесу</NavLink>
                                     </li>
                                     <li>
-                                        <a href="/contacts">Контакти</a>
+                                        <NavLink to="/contacts">Контакти</NavLink>
                                     </li>
                                 </ul>
-                                <a href="#" className="contact-phone">+38 (000) 00 00 000</a>
+                                <NavLink to="#" className="contact-phone">+38 (000) 00 00 000</NavLink>
                             </div>
                         </div>
                     </div>
@@ -78,9 +80,9 @@ export default class Header extends Component {
                                         <label>Каталог</label>
                                     </div>
                                     <div className="logo">
-                                        <a href="/">
+                                        <NavLink to="/">
                                             <img src={Logo} alt="site-logo" />
-                                        </a>
+                                        </NavLink>
                                     </div>
                                 </div>
                                 <div className="right-block">

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import VacuumCleaner from '../../images/thumbnails/category/vacuum-cleaner.png';
 import Dishwasher from '../../images/thumbnails/category/dishwasher.png';
@@ -18,7 +19,7 @@ export default class PopularCategories extends Component {
                     </div>
                     <div className="blocks-row">
                         <div className="block">
-                            <a href="/catalog">
+                            <NavLink to="/catalog">
                                 <div className="image-block">
                                     <img src={VacuumCleaner} alt="category-image" />
                                 </div>
@@ -31,10 +32,10 @@ export default class PopularCategories extends Component {
                                         Filter, Fuse, Handle or Latch ..
                                     </div>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="block">
-                            <a href="/catalog">
+                            <NavLink to="/catalog">
                                 <div className="image-block">
                                     <img src={Multicooker} alt="category-image" />
                                 </div>
@@ -47,10 +48,10 @@ export default class PopularCategories extends Component {
                                         Filter, Fuse, Handle or Latch ..
                                     </div>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="block">
-                            <a href="/catalog">
+                            <NavLink to="/catalog">
                                 <div className="image-block">
                                     <img src={Freezer} alt="category-image" />
                                 </div>
@@ -63,10 +64,10 @@ export default class PopularCategories extends Component {
                                         Filter, Fuse, Handle or Latch ..
                                     </div>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="block">
-                            <a href="/catalog">
+                            <NavLink to="/catalog">
                                 <div className="image-block">
                                     <img src={WashingMachine} alt="category-image" />
                                 </div>
@@ -79,10 +80,10 @@ export default class PopularCategories extends Component {
                                         Filter, Fuse, Handle or Latch ..
                                     </div>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="block">
-                            <a href="/catalog">
+                            <NavLink to="/catalog">
                                 <div className="image-block">
                                     <img src={Dishwasher} alt="category-image" />
                                 </div>
@@ -95,10 +96,10 @@ export default class PopularCategories extends Component {
                                         Filter, Fuse, Handle or Latch ..
                                     </div>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="block">
-                            <a href="/catalog">
+                            <NavLink to="/catalog">
                                 <div className="image-block">
                                     <img src={Fridge} alt="category-image" />
                                 </div>
@@ -111,7 +112,7 @@ export default class PopularCategories extends Component {
                                         Filter, Fuse, Handle or Latch ..
                                     </div>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

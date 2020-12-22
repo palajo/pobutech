@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import MenuIcon from '../images/icons/phone.svg';
 import CategoryImage from '../images/product.png';
 
+import { NavLink } from 'react-router-dom'
 import $ from 'jquery';
 
 export default class Menu extends Component {
@@ -20,196 +21,196 @@ export default class Menu extends Component {
                     <div className="row">
                         <ul className="main-ul">
                             <li className="main-item active">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon fridge"></div>
                                     Холодильники
-                                </a>
+                                </NavLink>
                                 <div className="sub-ul-container">
                                     <ul className="sub-ul">
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #1
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #2
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #3
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #4
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #5
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #6
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #7
-                                            </a>
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon washing-machine"></div>
                                     Пральні машини
-                                </a>
+                                </NavLink>
                                 <div className="sub-ul-container">
                                     <ul className="sub-ul">
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #11
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #22
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #33
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #44
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #55
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #66
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #77
-                                            </a>
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon air-conditioning"></div>
                                     Кондиціонери
-                                </a>
+                                </NavLink>
                                 <div className="sub-ul-container">
                                     <ul className="sub-ul">
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #111
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #222
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #333
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #444
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #555
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #666
-                                            </a>
+                                            </NavLink>
                                         </li>
                                         <li>
-                                            <a href="/catalog">
+                                            <NavLink to="/catalog">
                                                 <img src={CategoryImage} alt="category-image" />
                                                 Category Title #777
-                                            </a>
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon vacuum-cleaner"></div>
                                     Пилососи
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon multicooker"></div>
                                     Мультиварки
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon freezer"></div>
                                     Морозильні камери
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon waterheater"></div>
                                     Бойлери
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon dishwasher"></div>
                                     Посудомийні машини
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="main-item">
-                                <a className="main-link" href="/catalog">
+                                <NavLink className="main-link" to="/catalog">
                                     <div className="main-ul-icon icon meat-grinder"></div>
                                     М'ясорубки
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

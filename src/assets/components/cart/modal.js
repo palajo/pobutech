@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import ProductImage from '../../images/product-big.png';
 
@@ -24,16 +25,16 @@ export default class CartModal extends Component {
                                 <table>
                                     <tr className="cart-product">
                                         <td className="cart-product-image">
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <img src={ProductImage} alt="cart-product-image" />
-                                            </a>
+                                            </NavLink>
                                         </td>
                                         <td className="cart-product-title-code">
                                             <div className="cart-product-title">
-                                                <a href="#">
+                                                <NavLink to="#">
                                                     Wellco Airfilter SES/W220
                                                     Additional
-                                                </a>
+                                                </NavLink>
                                             </div>
                                             <div className="cart-product-code">
                                                 Артикул: #12352
@@ -51,7 +52,11 @@ export default class CartModal extends Component {
                                             </div>
                                         </td>
                                         <td className="cart-product-price">
+                                            <span class="quantity-in-cart">x2</span>
                                             95 <span>грн.</span>
+                                        </td>
+                                        <td className="cart-product-price">
+                                            190 <span>грн.</span>
                                         </td>
                                         <td className="cart-product-actions">
                                             <div className="cart-product-remove-from-cart"></div>
@@ -59,16 +64,16 @@ export default class CartModal extends Component {
                                     </tr>
                                     <tr className="cart-product">
                                         <td className="cart-product-image">
-                                            <a href="#">
+                                            <NavLink to="#">
                                                 <img src={ProductImage} alt="cart-product-image" />
-                                            </a>
+                                            </NavLink>
                                         </td>
                                         <td className="cart-product-title-code">
                                             <div className="cart-product-title">
-                                                <a href="#">
+                                                <NavLink to="#">
                                                     Wellco Airfilter SES/W220
                                                     Additional
-                                                </a>
+                                                </NavLink>
                                             </div>
                                             <div className="cart-product-code">
                                                 Артикул: #12352
@@ -86,42 +91,11 @@ export default class CartModal extends Component {
                                             </div>
                                         </td>
                                         <td className="cart-product-price">
+                                            <span class="quantity-in-cart">x2</span>
                                             95 <span>грн.</span>
-                                        </td>
-                                        <td className="cart-product-actions">
-                                            <div className="cart-product-remove-from-cart"></div>
-                                        </td>
-                                    </tr>
-                                    <tr className="cart-product">
-                                        <td className="cart-product-image">
-                                            <a href="#">
-                                                <img src={ProductImage} alt="cart-product-image" />
-                                            </a>
-                                        </td>
-                                        <td className="cart-product-title-code">
-                                            <div className="cart-product-title">
-                                                <a href="#">
-                                                    Wellco Airfilter SES/W220
-                                                    Additional
-                                                </a>
-                                            </div>
-                                            <div className="cart-product-code">
-                                                Артикул: #12352
-                                            </div>
-                                        </td>
-                                        <td className="cart-product-quantity">
-                                            <div className="input-row">
-                                                <div className="number-button">
-                                                    <img src={Minus} alt="minus"/>
-                                                </div>
-                                                <input type="number" className="quantity" min="1" max="25" step="1" placeholder="1"></input>
-                                                <div className="number-button">
-                                                    <img src={Plus} alt="plus"/>
-                                                </div>
-                                            </div>
                                         </td>
                                         <td className="cart-product-price">
-                                            95 <span>грн.</span>
+                                            190 <span>грн.</span>
                                         </td>
                                         <td className="cart-product-actions">
                                             <div className="cart-product-remove-from-cart"></div>
@@ -142,9 +116,9 @@ export default class CartModal extends Component {
                                         <label>Загальна вартість:</label>
                                         190 <span>грн.</span>
                                     </div>
-                                    <a href="/checkout">
+                                    <NavLink to="/checkout">
                                         <button className="button">Оформити замовлення</button>
-                                    </a>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>

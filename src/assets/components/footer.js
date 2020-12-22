@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import Logo from '../images/logo1.svg';
 
@@ -10,9 +11,9 @@ export default class Footer extends Component {
                     <div className="row blocks-row">
                         <div className="block">
                             <div className="footer-logo">
-                                <a href="#">
+                                <NavLink to="#">
                                     <img src={Logo} alt="footer-logo" />
-                                </a>
+                                </NavLink>
                             </div>
                         </div>
                         <div className="block">
@@ -21,29 +22,29 @@ export default class Footer extends Component {
                             </div>
                             <ul className="footer-nav">
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="/delivery" className="nav-link">
                                         Доставка та оплата
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="/warranty" className="nav-link">
                                         Гарантія
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="/return" className="nav-link">
                                         Повернення товару
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="/business" className="nav-link">
                                         Для бізнесу
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="/contacts" className="nav-link">
                                         Контакти
-                                    </a>
+                                    </NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -53,29 +54,29 @@ export default class Footer extends Component {
                             </div>
                             <ul className="footer-nav">
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         Холодильники
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         Мультиварки
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         Посудомийні машини
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         Пральні машини
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         Бойлери
-                                    </a>
+                                    </NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -85,29 +86,29 @@ export default class Footer extends Component {
                             </div>
                             <ul className="footer-nav informative">
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         <div className="footer-icon icon phone"></div>
                                         +38 (000) 00 00 000
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         <div className="footer-icon icon phone"></div>
                                         +38 (000) 00 00 000
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <div className="space"></div>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         <div className="footer-icon icon clock"></div>
                                         з 9-00 до 18-00
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link">
+                                    <NavLink to="#" className="nav-link">
                                         <div className="footer-icon icon location"></div>
                                         м. Львів, вул. Шевченка 8а
-                                    </a>
+                                    </NavLink>
                                 </li>
                             </ul>
                         </div>

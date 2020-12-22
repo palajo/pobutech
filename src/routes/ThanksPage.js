@@ -4,6 +4,7 @@ import ProductImage from '../assets/images/product-big.png'
 
 import Minus from '../assets/images/icons/minus.svg';
 import Plus from '../assets/images/icons/plus.svg';
+import { NavLink } from 'react-router-dom';
 
 export default class ThanksPage extends Component {
     render() {
@@ -52,11 +53,11 @@ export default class ThanksPage extends Component {
                                 </table>
                             </div>
                             <div className="actions">
-                                <a href="/">
+                                <NavLink to="/">
                                     <button className="button">
                                         До магазину
                                     </button>
-                                </a>
+                                </NavLink>
                             </div>
                         </div>
                     </section>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default class Breadcrumbs extends Component {
     render() {
@@ -6,24 +7,24 @@ export default class Breadcrumbs extends Component {
             <section className="breadcrumbs">
                 <ul>
                     <li>
-                        <a href="#">
+                        <NavLink to="/" exact>
                             Головна
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink to="/category" exact>
                             Категорія
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink to="/category/subcatergory" exact>
                             Підкатегорія
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#" className="active">
+                        <NavLink to="/category/subcatergory/prodcuct" className="active" exact>
                             Сторінка товару
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
             </section>
