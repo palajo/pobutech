@@ -1,0 +1,148 @@
+section.sidebar-catalog {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #fff;
+    margin-bottom: 40px;
+
+    .category-header {
+        width: 100%;
+
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 25px 40px;
+        border-bottom: 1px solid #e7e7e7;
+
+        .category-title {
+            display: flex;
+
+            font-size: 16px;
+            line-height: 16px;
+
+            font-weight: 600;
+            color: #041E42;
+
+            .category-icon {
+                align-self: center;
+
+                height: 14px;
+                width: 14px;
+
+                mask-size: contain;
+                mask-position: center;
+
+                background: #041E42;
+
+                margin-right: 10px;
+            }
+
+            .category-icon.freezer {
+                mask: url("../../../images/icons/categories/freezer.svg") 50% 50% no-repeat;
+            }
+        }
+
+        .category-sort {
+            select {
+                display: flex;
+
+                border: none;
+                outline: none;
+                background: none;
+
+                font-size: 14px;
+                line-height: 14px;
+
+                font-weight: 600;
+                color: #C22532;
+                padding-right: 10px;
+                &::after {
+                    align-self: center;
+
+                    content: '';
+                    position: relative;
+
+                    width: 12px;
+                    height: 12px;
+
+                    mask: url("../../../images/icons/arrow-bottom.svg") 50% 50% no-repeat;
+                    mask-size: contain;
+                    mask-position: center;
+
+                    background: #C22532;
+
+                }
+            }
+        }
+    }
+}
+
+.filters-button {
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px;
+    height: 40px;
+
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    color: #fff;
+
+    outline: none;
+    border: none;
+    background: #C22532;
+
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+
+    &::before {
+        position: relative;
+        content: '';
+
+        width: 14px;
+        height: 14px;
+
+        background: #fff;
+
+        mask: url('../../../images/icons/phone.svg');
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.sidebar-catalog {
+        .category-header {
+            padding: 25px 20px;
+        }
+    }
+
+    .filters-button {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    section.sidebar-catalog {
+        .category-header {
+            padding: 25px 40px;
+        }
+    }
+
+    .filters-button {
+        display: flex;
+    }
+}

@@ -1,0 +1,95 @@
+import React from 'react'
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+
+import SliderImage from '../../assets/images/slider2.jpg';
+import SliderImageTwo from '../../assets/images/slider.jpg';
+
+function NextArrow(props) {
+    const { onClick } = props;
+    return (
+        <div className="arrow arrow-right" onClick={onClick}>
+            <div className="arrow-icon arrow-icon-right"></div>
+        </div>
+    );
+}
+
+function PreviousArrow(props) {
+    const { onClick } = props;
+    return (
+        <div className="arrow arrow-left" onClick={onClick}>
+            <div className="arrow-icon arrow-icon-left"></div>
+        </div>
+    );
+}
+
+
+export default function MainpageSlider() {
+
+    const settingsMain = {
+        dots: true,
+        arrows: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        prevArrow: <PreviousArrow />,
+        nextArrow: <NextArrow />,
+        dotsClass: "slick-dots slick-thumb",
+        customPaging: function (i) {
+            return (
+                <div className="slider-dot"></div>
+            );
+        },
+    };
+
+    return (
+        <div className="container mainpage-slider">
+            <div className="row">
+                <Slider
+                    {...settingsMain}
+                >
+                    <div className="mainpage-slider-slide">
+                        <div className="content-block">
+                            <div>
+                                <h2>
+                                    Супер-пропозиція на запасні
+                                    частини до холодильників!
+                                    </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,  eiusmod tempor incididunt ut labore et dolore magna.
+                                    </p>
+                                <button className="button">
+                                    До категорії
+                                    </button>
+                            </div>
+                        </div>
+                        <div className="image-block">
+                            <img src={SliderImage} alt="slider-image" />
+                        </div>
+                    </div>
+                    <div className="mainpage-slider-slide">
+                        <div className="content-block">
+                            <div>
+                                <h2>
+                                    Лише сьогодні знижка на всі <br />
+                                        позиції до 15%!
+                                    </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,  eiusmod tempor incididunt ut labore et dolore magna.
+                                    </p>
+                                <button className="button">
+                                    В магазин
+                                    </button>
+                            </div>
+                        </div>
+                        <div className="image-block">
+                            <img src={SliderImageTwo} alt="slider-image" />
+                        </div>
+                    </div>
+                </Slider>
+            </div>
+        </div>
+    )
+}

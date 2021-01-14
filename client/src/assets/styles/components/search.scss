@@ -1,0 +1,34 @@
+form.search {
+    position: relative;
+    margin-right: 10px;
+    .row {
+        align-items: center;
+    }
+    .search-input {
+        width: 180px;
+        height: 40px;
+        padding: 5px 30px 5px 10px;
+        background: none;
+        outline: none;
+        border: none;
+
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+        font-size: 12px;
+        line-height: 12px;
+
+        font-weight: 400;
+
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.25);
+        }
+    }
+    .search-submit {
+        position: relative;
+        margin-left: 20px;
+        background: none;
+        outline: none;
+        border: none;
+    }
+}

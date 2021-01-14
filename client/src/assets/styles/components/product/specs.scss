@@ -1,0 +1,124 @@
+section.specs {
+    width: 70%;
+
+    .container-title {
+        padding: 30px 40px;
+        border-bottom: 1px solid #e7e7e7;
+
+        margin-bottom: 0;
+    }
+
+    .specifications {
+        padding: 40px;
+        width: 100%;
+
+        .specifications-block {
+            width: 100%;
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .specifications-row {
+                display: flex;
+                flex-wrap: wrap;
+
+                .specifications-title {
+                    position: relative;
+                    display: flex;
+
+                    width: 40%;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+
+                        top: 14px;
+
+                        height: 1px;
+                        width: calc(100% - 30px);
+
+                        border-bottom: 1px solid #e7e7e7;
+                        z-index: 0;
+                    }
+
+                    span {
+                        flex-wrap: nowrap;
+
+                        font-size: 14px;
+                        line-height: 30px;
+    
+                        font-weight: 400;
+                        color: #1f1f1f;
+
+                        padding-right: 30px;
+
+                        background: #fff;
+                        z-index: 1;
+                    }
+                }
+
+                .specifications-value {
+                    width: 60%;
+
+                    ul {
+                        list-style: none;
+                        margin: 0;
+
+                        li {
+                            margin: 0;
+                            padding: 0;
+
+                            a {
+                                margin: 0;
+                                padding: 0;
+
+                                font-size: 14px;
+                                line-height: 30px;
+    
+                                font-weight: 400;
+                                color: #3e77aa;
+    
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.specs {
+        width: 100%;
+
+        .specifications {
+            padding: 30px;    
+            .specifications-block {
+                margin-bottom: 50px;
+    
+                .specifications-row {                    
+    
+                    .specifications-title {    
+                        width: 100%;
+                    }
+    
+                    .specifications-value {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    section.specs {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    section.specs {
+        width: calc(100% - 380px);
+    }
+}

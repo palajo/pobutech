@@ -1,0 +1,43 @@
+section.breadcrumbs {
+    width: 100%;
+    margin-bottom: 20px;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        margin: 0;
+
+        li {
+            a {
+                margin: 0;
+                padding: 0;
+
+                font-size: 12px;
+                line-height: 14px;
+
+                font-weight: 400;
+                color: #808080;
+
+                &::after {
+                    content: '–';
+                    margin: 0 10px;
+                }
+            }
+
+            &:last-child {
+                a {
+                    &::after {
+                        display: none;
+                    }
+                }
+                
+                a.active {
+                    color: #C22532;
+                    font-weight: 600;
+                }
+            }
+
+        }
+    }
+}

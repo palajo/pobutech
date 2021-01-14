@@ -1,0 +1,76 @@
+.notices {
+    position: fixed;
+
+    width: 100%;    
+
+    top: 175px;
+    left: 0;
+
+    z-index: 3;
+
+    .toast {
+        margin: 0 auto;
+
+        width: 100%;
+        max-width: 700px;
+        flex-basis: auto;
+        background: none;
+
+        border-radius: 15px;
+        overflow: hidden;
+
+        background: #fff;
+        margin-bottom: 20px;
+        opacity: 1;
+
+        .toast-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            border-bottom: 1px solid #e7e7e7;
+
+            padding: 10px 30px;
+
+            .toast-title {
+                font-size: 14px;
+                line-height: 20px;
+
+                font-weight: 600;
+                color: #1f1f1f;
+            }
+        }
+        
+        .toast-body {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+
+            background: #fff;
+            padding: 40px 30px;
+
+            .button {
+                margin-left: 25px;
+                text-align: center;
+                line-height: 50px;
+                order: 2;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.woocommerce-NoticeGroup {    
+    .toast {
+        .toast-body {
+            justify-content: flex-start;
+
+            strong {
+                 color: #C22532;
+                 margin-right: 10px;
+            }
+        }
+    }
+}
